@@ -1,76 +1,138 @@
 * {
-    font-family:Arial, Helvetica, sans-serif;
-       
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    margin:0;
-    padding:0;
-   
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.cabecalho{
-    width:100%;
-    padding:0;
-    margin:0;         
-     }
-
-
-.frontend{
-    font-size: 60px;
-    font-weight: 100;
-    color: #B09291;
-    margin-left: 45px;
-    margin-top: -5px; 
+.headerContainer {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-colums: 1fr;
 }
 
-.design{
-    font-size: 100px;
-    font-weight: 200;
-    color:#C8BBB1;
-    margin-left: 232px;
-    margin-top:-35px;
-  }
-
-.usability{
-    font-size: 30px;
-    font-weight:150;
-    color:#CDCED2;
-    margin-left: 480px;
-    margin-top: -20px;
-  
+.cabecalho {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
 }
 
-
-h2{
-    font-size:35px;
-    font-weight: 45;
-    color: #B09291;
-    margin-left: 1300px;
-    margin-bottom: 5px;
+.frontend {
+  font-size: 3rem;
+  font-weight: 100;
+  color: #b09291;
+  margin-left: 35px;
+  margin-top: -5px;
 }
 
-
-
-.image{
-    display:inline;
-    margin:60px;
-    margin-top:20px;
-    margin-bottom:50px
+.design {
+  font-size: 5rem;
+  font-weight: 200;
+  color: #c8bbb1;
+  margin-left: 200px;
+  margin-top: -35px;
 }
 
-
-.contato{
-    font-weight: 500;
-    margin-left: 135px;
-    margin-top: 30px;
-    margin-bottom: 5px;
+.usability {
+  font-size: 2rem;
+  font-weight: 150;
+  color: #cdced2;
+  margin-left: 60px;
+  margin-top: -20px;
 }
 
+.jobsContainer {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "culture educational educational jobs"
+    "culture teleimage food jobs"
+    "promeeting teleimage food idea_design";
 
-.paginafim{
-    width:100%;
-    margin-bottom:0px;
-    margin-top:15px;
-    
+  padding-block: 2rem;
+  width: min(95%, 90rem);
+  margin-inline: auto;
+  overflow: auto;
+}
+
+.culture {
+  grid-area: culture;
+  background-image: url(../images/culture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+.food {
+  grid-area: food;
+  background-image: url(../images/food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+.educational {
+  grid-area: educational;
+  background-image: url(../images/educational.jpg);
+  background-repeat: no-repeat;
+  background-size: covern;
+  overflow: auto;
+}
+
+.teleimage {
+  grid-area: teleimage;
+  background-image: url(../images/teleimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.idea_design {
+  grid-area: idea_design;
+  background-image: url(../images/idea_design.jpg);
+  background-repeat: no-repeat;
+  background-size: covern;
+  overflow: auto;
+}
+
+.promeeting {
+  grid-area: promeeting;
+  background-image: url(../images/promeeting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.jobs {
+  grid-area: jobs;
+  background-color: #ae8884;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 45;
+  color: #b09291;
+  margin-left: 1300px;
+  margin-bottom: 5px;
+}
+
+.image {
+  display: inline;
+  margin: 60px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.contato {
+  font-weight: 500;
+  margin-left: 135px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.paginafim {
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 15px;
 }
