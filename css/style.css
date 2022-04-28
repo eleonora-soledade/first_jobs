@@ -17,11 +17,10 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  overflow: auto;
 }
 
 .frontend {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 100;
   color: #b09291;
   margin-left: 35px;
@@ -29,84 +28,101 @@ body {
 }
 
 .design {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 200;
   color: #c8bbb1;
-  margin-left: 200px;
+  margin-left: 170px;
   margin-top: -35px;
 }
 
 .usability {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: 150;
   color: #cdced2;
-  margin-left: 60px;
+  margin-left: 480px;
   margin-top: -20px;
 }
 
 .jobsContainer {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "culture educational educational jobs"
-    "culture teleimage food jobs"
-    "promeeting teleimage food idea_design";
+  grid-template-columns: repeat(5 1fr)
+  grid-template-rows:2fr 2fr 1fr;
+
+    grid-template-areas:
+    "culture educational food teleimage design"
+    "content1 content1 content2 content2 content3";
+
 
   padding-block: 2rem;
   width: min(95%, 90rem);
   margin-inline: auto;
-  overflow: auto;
 }
 
 .culture {
   grid-area: culture;
   background-image: url(../images/culture.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   overflow: auto;
+  height:600px;
 }
 .food {
   grid-area: food;
   background-image: url(../images/food.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   overflow: auto;
+  height:600px;
 }
 .educational {
   grid-area: educational;
   background-image: url(../images/educational.jpg);
   background-repeat: no-repeat;
-  background-size: covern;
+  background-size: contain;
   overflow: auto;
+  height:600px
 }
 
 .teleimage {
   grid-area: teleimage;
-  background-image: url(../images/teleimage.jpg);
+  background-image: url(../images/teleimage_cor.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-}
-.idea_design {
-  grid-area: idea_design;
-  background-image: url(../images/idea_design.jpg);
-  background-repeat: no-repeat;
-  background-size: covern;
+  background-size: contain;
   overflow: auto;
+  height:600px;
+}
+.design_graphic {
+  grid-area: design;
+  background-image: url(../images/design.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+  height:600px;
 }
 
 .promeeting {
-  grid-area: promeeting;
+  grid-area: design;
   background-image: url(../images/promeeting.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   overflow: auto;
+  height:600px;
 }
 
-.jobs {
-  grid-area: jobs;
-  background-color: #ae8884;
+.content1 {
+grid-area: content1;
+ background-color: #b09291;
+}
+
+.content2 {
+  grid-area: content2;
+ background-color: #b09291;
+}
+
+.content3 {
+  grid-area: content3;
+ background-color: #b09291;
 }
 
 h2 {
