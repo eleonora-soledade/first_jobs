@@ -45,14 +45,12 @@ body {
 
 .jobsContainer {
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(5 1fr)
-  grid-template-rows:2fr 2fr 1fr;
-
-    grid-template-areas:
+  gap: 1rem;
+  grid-template-columns: 19% 19% 19% 19% 19%;
+  grid-template-rows: 2fr 2fr 1fr;
+  grid-template-areas:
     "culture educational food teleimage design"
     "content1 content1 content2 content2 content3";
-
 
   padding-block: 2rem;
   width: min(95%, 90rem);
@@ -65,7 +63,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
-  height:600px;
+  height: 600px;
 }
 .food {
   grid-area: food;
@@ -73,7 +71,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
-  height:600px;
+  height: 600px;
 }
 .educational {
   grid-area: educational;
@@ -81,16 +79,16 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
-  height:600px
+  height: 600px;
 }
 
 .teleimage {
   grid-area: teleimage;
-  background-image: url(../images/teleimage_cor.jpg);
+  background-image: url(../images/teleimage.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
-  height:600px;
+  height: 600px;
 }
 .design_graphic {
   grid-area: design;
@@ -98,7 +96,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
-  height:600px;
+  height: 600px;
 }
 
 .promeeting {
@@ -107,22 +105,22 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
-  height:600px;
+  height: 600px;
 }
 
 .content1 {
-grid-area: content1;
- background-color: #b09291;
+  grid-area: content1;
+  background-color: #b09291;
 }
 
 .content2 {
   grid-area: content2;
- background-color: #b09291;
+  background-color: #b09291;
 }
 
 .content3 {
   grid-area: content3;
- background-color: #b09291;
+  background-color: #b09291;
 }
 
 h2 {
