@@ -132,7 +132,7 @@ body {
 
 .design_graphic {
   grid-area: design;
-  background-image: url(../images/design_cor.jpg);
+  background-image: url(../images/design.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
