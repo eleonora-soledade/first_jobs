@@ -171,6 +171,41 @@ body {
   background-color: #b09291;
 }
 
+.listTitle {
+  padding: 1rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 2;
+}
+
+.listContent1 {
+  list-style: none;
+  padding: 0.3, 1 rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.listContent2 {
+  list-style: none;
+  padding: 0.3, 1 rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.listContent3 {
+  list-style: none;
+  padding: 0.3, 1 rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
 .content2 {
   grid-area: content2;
   background-color: #b09291;
@@ -179,6 +214,10 @@ body {
 .content3 {
   grid-area: content3;
   background-color: #b09291;
+}
+
+.listSmall {
+  line-height: 1.2rem;
 }
 
 h2 {
