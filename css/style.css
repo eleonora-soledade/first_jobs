@@ -40,7 +40,7 @@ body {
   font-size: 30px;
   font-weight: 150;
   color: #cdced2;
-  margin-left: 80px;
+  margin-left: 480px;
   margin-top: -20px;
 }
 
@@ -66,6 +66,16 @@ body {
   overflow: auto;
   height: 420px;
 }
+
+.culture:hover {
+  grid-area: culture;
+  background-image: url(../images/culture_cor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+  height: 420px;
+}
+
 .food {
   grid-area: food;
   background-image: url(../images/food.jpg);
@@ -74,9 +84,28 @@ body {
   overflow: auto;
   height: 420px;
 }
+
+.food:hover {
+  grid-area: food;
+  background-image: url(../images/food_cor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+  height: 420px;
+}
+
 .educational {
   grid-area: educational;
   background-image: url(../images/educational.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+  height: 420px;
+}
+
+.educational:hover {
+  grid-area: educational;
+  background-image: url(../images/educational_cor.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
@@ -91,9 +120,28 @@ body {
   overflow: auto;
   height: 420px;
 }
+
+.teleimage:hover {
+  grid-area: teleimage;
+  background-image: url(../images/teleimage_cor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+  height: 420px;
+}
+
 .design_graphic {
   grid-area: design;
-  background-image: url(../images/design.jpg);
+  background-image: url(../images/design_cor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+  height: 420px;
+}
+
+.design_graphic:hover {
+  grid-area: design;
+  background-image: url(../images/design_cor.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
@@ -103,6 +151,15 @@ body {
 .promeeting {
   grid-area: design;
   background-image: url(../images/promeeting.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+  height: 420px;
+}
+
+.promeeting:hover {
+  grid-area: design;
+  background-image: url(../images/promeeting_cor.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   overflow: auto;
