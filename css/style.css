@@ -58,6 +58,21 @@ body {
   margin-inline: auto;
 }
 
+@media only screen and (max-width: 400px) {
+  .jobsContainer {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "culture"
+      "educational"
+      "food"
+      "content1"
+      "teleimage"
+      "content2"
+      "design"
+      "content3";
+  }
+}
+
 .culture {
   grid-area: culture;
   background-image: url(../images/culture.jpg);
