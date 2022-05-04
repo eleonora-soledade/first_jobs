@@ -10,7 +10,6 @@ body {
 
 .headerContainer {
   display: grid;
-  gap: 1.5rem;
   grid-template-colums: 1fr;
 }
 
@@ -32,15 +31,15 @@ body {
   font-size: 6rem;
   font-weight: 200;
   color: #c8bbb1;
-  margin-left: 170px;
+  margin-left: 160px;
   margin-top: -35px;
 }
 
 .usability {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 150;
   color: #cdced2;
-  margin-left: 480px;
+  margin-left: 30px;
   margin-top: -20px;
 }
 
@@ -188,38 +187,22 @@ body {
 }
 
 .listTitle {
-  padding: 1rem;
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 0;
-  padding: 2;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0;
 }
 
-.listContent1 {
-  list-style: none;
-  padding: 0.3, 1 rem;
-  line-height: 2.5rem;
-  font-size: 1rem;
-  margin: 0;
-  padding: 1rem;
-}
-
-.listContent2 {
-  list-style: none;
-  padding: 0.3, 1 rem;
-  line-height: 2.5rem;
-  font-size: 1rem;
-  margin: 0;
-  padding: 1rem;
-}
-
+.listContent1,
+.listContent2,
 .listContent3 {
   list-style: none;
-  padding: 0.3, 1 rem;
-  line-height: 2.5rem;
+  line-height: 2rem;
   font-size: 1rem;
   margin: 0;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .content2 {
@@ -253,9 +236,8 @@ h2 {
 
 .contato {
   font-weight: 500;
-  margin-left: 135px;
-  margin-top: 30px;
-  margin-bottom: 5px;
+  margin: auto
+  max-width: 70%;
 }
 
 .paginafim {
