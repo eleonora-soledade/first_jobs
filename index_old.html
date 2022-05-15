@@ -104,3 +104,43 @@
             </article>
 
             -->
+
+
+
+
+
+
+
+
+
+
+
+
+            .jobsContainer {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 18% 18% 18% 18% 18%;
+  grid-template-rows: 36% 36% 18%;
+  grid-template-areas:
+    "culture educational food teleimage design"
+    "content1 content1 content2 content2 content3";
+
+  padding-block: 1rem;
+  width: min(95%, 90rem);
+  margin-inline: auto;
+}
+
+@media only screen and (min-width: 400px) {
+  .jobsContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "culture"
+      "educational"
+      "food"
+      "content1"
+      "teleimage"
+      "content2"
+      "design"
+      "content3";
+  }
